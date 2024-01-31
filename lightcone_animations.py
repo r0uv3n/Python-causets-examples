@@ -14,10 +14,10 @@ from causets import causetplotting as cplt, colorschemes as cs
 import matplotlib as mpl
 from matplotlib import pyplot as plt, axes as plta, animation
 import numpy as np
-import lightcone_animations_coordinates as LAC
+from . import lightcone_animations_coordinates as LAC
 # Path to movie encoder:
-mpl.rcParams['animation.ffmpeg_path'] = \
-    r'C:\\Program Files\\FFmpeg\\ffmpeg-v4.3.2\\bin\\ffmpeg.exe'
+# mpl.rcParams['animation.ffmpeg_path'] = \
+#     r'ffmpeg'
 
 # ==============================
 # Causet and spacetime:
